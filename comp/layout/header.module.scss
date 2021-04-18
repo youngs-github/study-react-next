@@ -1,0 +1,35 @@
+.box {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 960px;
+}
+.wrapper {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.icon {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.link {
+  flex: 1 1 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.item {
+  cursor: pointer;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.item a {
+  color: #71777c;
+  padding: 20px;
+  text-decoration: none;
+}
+.item.active a {
+  color: #0770ff;
+}

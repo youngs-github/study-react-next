@@ -1,0 +1,20 @@
+{
+  "name": "study-react-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3020"
+  },
+  "dependencies": {
+    "antd": "^4.13.1",
+    "next": "^10.0.8",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "license": "MIC",
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.3"
+  }
+}
